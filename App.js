@@ -15,10 +15,10 @@ class TodoApp extends Component {
       <Text>
   Whats to do?
         </Text>
-        
-        <ListView></ListView>
-        
+         
         <Image style={styles.logo} source={require('./assets/snack-icon.png')} />
+        <ListView></ListView>
+       
       </View>
     );
   }
@@ -45,8 +45,12 @@ const styles = StyleSheet.create({
   logo: {
     height: 128,
     width: 128,
-    justifyContent: 'center',
-    padding: 5
+    objectFit: 'contain',
+    justifyContent: 'right',
+    alignSelf: 'center',
+    padding: 5,
+    position: 'absolute',
+    zIndex: 100
   }
   
 });
