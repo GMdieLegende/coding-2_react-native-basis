@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View, Image } from 'react-native';
 import ListView from './components/ListView';
+import ListView2 from './components/ListView2';
 import { Slider } from 'react-native-elements'; 
   /*
    TodoApp: Haupteinstiegpunkt
@@ -18,7 +19,7 @@ class TodoApp extends Component {
          
         <Image style={styles.logo} source={require('./assets/snack-icon.png')} />
         <ListView></ListView>
-       
+        <ListView2></ListView2>
       </View>
     );
   }
@@ -36,7 +37,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    paddingTop: 30,
+    paddingTop: 1,
     paddingBottom: 10,
     paddingLeft: 2,
     paddingRight: 2,
