@@ -12,7 +12,7 @@ import Utils from '../Utils';
     Dies könnte auch ein Server sein mit einer Datenbank
 */
 
-export let dataList = [
+let dataList = [
   
 ];
 
@@ -81,4 +81,3 @@ class ListView extends Component {
 }
 
 module.exports = ListView;
-export default dataList;
